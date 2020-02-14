@@ -1,0 +1,17 @@
+---
+title: "MS_2"
+author: "Richard Zhu"
+date: "2/13/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Project 1: Demographics and Votes of the U.S. Supreme Court
+  The first project I looked at was Elizabeth Guo's project about the partisanship of Supreme Court judges and potential influences on their voting patterns. I think some of the main pros of the project are that it answers an interesting and pertinent question related to government: Supreme Court nominations and justices are known to be a powerful body in creating legal precedent, and analyzing the potential partisanship of a so called nonpartisan organization brings up fascinating results. In addition, I think analyzing the changing demographics of court justices in addition to their partisanship was a nice add-on - the data analysis was not too difficult but it adds another aspect to the project. However, I think that the project suffers from limited methodology - I think simple regressions for these types of decisions isn't necessarily the best way to analyze the data (maybe swing votes/overall court decisions based on the overall justice split instead). This is because for many cases at the Supreme Court, it's a clear 9-0 for one side - as a result, this could create a lot of noisy data in terms of "liberal judges" siding with "conservative" decisions. Overall, I think Elizabeth did a good job of presenting and analyzing the data!
+
+## Project 2: New York City Airbnb and Housing Prices
+
+  Next, I looked at Molly Chiang's project about Airbnb and Housing prices in NYC. I've always been interested to see how the stereotypes of certain NYC boroughs and neighborhoods match up with real property values. I think that Molly's project did an amazing of presenting all of the data in an intuitive way - each tab and graph is summarized clearly, and I especially liked the geomap shown with the different shades of pricing shown under the "Price Map" tab. Moreover, I think that she did well in combining two distinct data sources to tell a story - with both Airbnb AND Housing we can get a full idea of both the renting and buying prices of properties. One con that I saw was that there wasn't a ton of data cleaning or new analysis on the data - it just aggregated information rather than necessarily creating new insights. Additionally, I think that it might have been interesting to also see if there was anything about average square foot of a property in certain areas, then regress over square feet versus proximity to city centers - this could give interesting insights on whether location or the actual property is more important to its overall price!
